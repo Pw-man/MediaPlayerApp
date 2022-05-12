@@ -18,7 +18,8 @@ class VideoViewController: UIViewController {
         setupTableView()
         tableView.dataSource = self
         tableView.delegate = self
-        self.title = "Youtube videos"
+//        tabBarItem.title = "Videos"
+//        tabBarItem.image =  UIImage(systemName: "video.fill")!
     }
     
     func setupTableView() {
